@@ -11,6 +11,7 @@ with open("input.txt", "r", encoding="utf-8") as file:
 print(increment_count)
 """
 
+# Part 2
 """
 with open("C:\\Users\\natha\\Desktop\\Python\\Advent-of-Code\\Day 1\\input.txt", "r", encoding="utf-8") as file:
     data = [int(line) for line in file.read().splitlines()]
