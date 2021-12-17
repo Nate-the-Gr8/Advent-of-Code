@@ -28,5 +28,5 @@ with open("input.txt", "r", encoding="utf-8") as file:
             aim += line[1]
         else:
             aim -= line[1]
-print(depth*horizontal) 
+print(depth*horizontal)
 # """
