@@ -78,5 +78,7 @@ with open("input.txt", "r", encoding="utf-8") as file:
     for i in range((len(lines)-2)//6):
         current = Bingo(lines[2+i*6:i*6+7])
         scores.append(current.playtest(file_draws))
-    print(scores[min(scores, key=lambda element:element[0])[1]][1])
-    
+    # Part 1
+    print(min(scores, key=lambda element:element[0])[1])
+    # Part 2
+    print(max(scores, key=lambda element:element[0])[1])
