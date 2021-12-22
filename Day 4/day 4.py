@@ -66,8 +66,6 @@ class Bingo:
         return total
 
 
-
-
 with open("input.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
     file_draws = lines[0].split(",")
